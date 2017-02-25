@@ -9,6 +9,8 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    private $orders = [];
+
     /**
      * The attributes that are mass assignable.
      *
@@ -26,4 +28,14 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+
+    /** 
+    * The orders belonging to a user
+    */
+    public function orders() {
+      return $this->hasMany('App\Order');
+    } 
+
+
 }

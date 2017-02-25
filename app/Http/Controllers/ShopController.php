@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Product;
+
 
 class ShopController extends Controller
 {
@@ -13,6 +15,7 @@ class ShopController extends Controller
 
 	//Serves custom earring creator
 	public function earringCreator() {
-
+		return view('creator');
 	}
+	
 }

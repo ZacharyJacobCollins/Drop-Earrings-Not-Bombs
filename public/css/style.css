@@ -1,4 +1,4 @@
-html, body {
+html, body, #app, .container {
     background-color: #fff;
     color: #636b6f;
     font-family: 'Raleway', sans-serif;
@@ -7,6 +7,10 @@ html, body {
     margin: 0;
     font-weight: 600;
     font-size: 18px;
+}
+
+.container {
+    margin-top: 100px;
 }
 
 .location {
