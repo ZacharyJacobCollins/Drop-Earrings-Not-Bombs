@@ -26,7 +26,6 @@ header{
   width:200px;
   margin:auto;
   background-repeat:no-repeat;;
-  background-image: url("/img/logo_navbar.svg");
 }
 #navbar_centerwrap_desktop{
   max-width: 1000px;

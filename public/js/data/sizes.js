@@ -1,0 +1,3 @@
+var availableSizes = [
+  { value: 'Full' },
+]

@@ -16,6 +16,9 @@
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <!-- Tether -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css">
+
     <!-- Bootstrap v4 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
@@ -38,20 +41,36 @@
         @include('components.top_nav')
 
         @yield('content')
+
+        
     </div>
+
+    <!-- Dummy Data for earrings -->
+    <script src="{{ asset('js/data/colors.js') }}"></script>
+
+    <script src="{{ asset('js/data/styles.js') }}"></script>
+    <script src="{{ asset('js/data/frames.js') }}"></script>
+    <script src="{{ asset('js/data/sizes.js') }}"></script>
+    <script src="{{ asset('js/data/beads.js') }}"></script>
 
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/components/top_nav.js') }}"></script>
+    <!-- <script src="{{ asset('js/app.js') }}"></script> -->
+
+    <!-- Tether -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 
     <!-- Bootstrap V4 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
     <!-- Vue.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
-    
+
+    <!-- Vue files -->
+    <script src="{{ asset('js/vue_components.js') }}"></script>
+    <script src="{{ asset('js/vue.js') }}"></script>
+
 </body>
 </html>

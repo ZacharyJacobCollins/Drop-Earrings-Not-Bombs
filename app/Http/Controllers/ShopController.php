@@ -15,7 +15,7 @@ class ShopController extends Controller
 
 	//Serves custom earring creator
 	public function earringCreator() {
-		return view('creator');
+		return view('earring_creator');
 	}
 	
 }
