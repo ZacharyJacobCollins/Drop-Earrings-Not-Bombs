@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class InvolvementController extends Controller
 {
 	public function involvement() {
-		return 'involvement';
+		return view('involvement');
 	}
 }

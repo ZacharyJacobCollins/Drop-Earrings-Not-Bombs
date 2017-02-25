@@ -16,9 +16,11 @@ Route::get('/', function () {
 });
 
 Route::get('/shop', 'ShopController@shop');
+Route::get('/shop/creator', 'ShopController@earringCreator');
+
 Route::get('/involvement', 'InvolvementController@involvement');
 Route::get('/crew', 'CrewController@crew');
+Route::get('/home', 'HomeController@index');
+
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index');
