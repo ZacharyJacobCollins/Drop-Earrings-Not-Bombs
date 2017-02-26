@@ -45,7 +45,9 @@
 
       <a class="nav-item nav-link col-2" href="#">Spacer</a>
       <a class="nav-item nav-link col-2" href="/contribute">Contribute</a>
-      <a class="nav-item nav-link col-1 shop" href="/shop">Shop</a>
+      <div class="col-1 shop">
+        <a class="nav-item" href="/shop">Shop</a>
+      </div>
     </div>
   </div>
 </nav>

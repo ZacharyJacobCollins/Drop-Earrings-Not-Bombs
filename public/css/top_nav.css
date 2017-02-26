@@ -10,4 +10,11 @@
 
 .shop {
 	background-color: #ff5656;
+	padding: 35px;
+	text-decoration: none;
+}
+
+.shop > a:hover {
+	text-decoration:none;
+	color: black;
 }
