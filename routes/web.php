@@ -18,6 +18,7 @@ Route::get('/', function () {
 //Shop routes
 Route::get('/shop', 'ShopController@shop');
 Route::get('/shop/creator', 'ShopController@earringCreator');
+Route::get('/shop/products', 'ShopController@products');
 
 Route::get('/products/index', 'ProductController@products');
 

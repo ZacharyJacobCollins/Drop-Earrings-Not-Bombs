@@ -17,5 +17,10 @@ class ShopController extends Controller
 	public function earringCreator() {
 		return view('earring_creator');
 	}
+
+	//Premade earrings/products
+	public function products() {
+		return view('products');
+	}
 	
 }

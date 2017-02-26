@@ -1,0 +1,30 @@
+a, span, div, p {
+	color: black;
+	font-size: 16px;
+}
+body, html {
+	height: 100%;
+	width: 100%;
+	background-color: #eee;
+}
+.main-content {
+	position: relative;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+}
+.row.button-block {
+	height: 100%;
+}
+.boxed-content {
+	text-align: center;
+	height: auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.boxed-content:hover {
+	 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.boxed-content a {
+	text-decoration: none;
+}

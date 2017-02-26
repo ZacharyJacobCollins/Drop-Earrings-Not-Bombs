@@ -9,5 +9,6 @@ var availableColors = [
   { value: 'black' },
   { value: 'brown' },
   { value: 'red' },
+  { value: 'lime' },
   
 ];
