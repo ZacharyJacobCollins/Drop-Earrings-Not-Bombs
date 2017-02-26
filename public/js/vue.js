@@ -8,7 +8,7 @@ var app = new Vue({
         availableSizes: availableSizes,
         availableBeads: availableBeads,
         size: '',
-        frame: '',
+        frames: { value: 'gold'},
         color: {
           //Contains an array of the colors available for the given layer
           layer1: 'none',
@@ -49,13 +49,12 @@ var app = new Vue({
         bus.$on('layer5', function (layer) {
           app.earrings.color.layer5 = layer;
         });
+        bus.$on('frames', function (frames) {
+          app.earrings.color.frames = frames;
+        });
       },
       //Register all selector event bus listeners
       registerSelectorListeners: function() {
-        bus.$on('frames', function (frame) {
-          app.earrings.frame = frame;
-          console.log(frame);
-        });
         bus.$on('styles', function (style) {
           app.earrings.style = style;
         });

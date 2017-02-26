@@ -25,6 +25,7 @@
     <!-- Custom CSS -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/components/top_nav.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/earring_creator.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -39,7 +40,7 @@
 <body>
     <div id="app">
 
-    
+
         @include('components.top_nav')
 
         @yield('content')
