@@ -12,10 +12,6 @@
 
             <!-- Image row -->
             <div class="col-md-6 earring-display">
-              <!--
-              <img class="image1" height="500" width="240" :src="earrings.frame.src" />
-              <img class="image2" height="280" width="230" :src="earrings.style.src" />
-              -->
               <classic-earring :color="earrings.color"></classic-earring>
             </div>
 
@@ -29,12 +25,12 @@
                 <selector :available="earrings.availableFrames" title="Frames"></selector>
 
                 <!-- Styles -->
-                <selector :available="earrings.availableStyles" title="Styles"></selector>
+                <!-- <selector :available="earrings.availableStyles" title="Styles"></selector> -->
 
                 <!-- Colors  -->
                 <template v-for="(layer, layerName) in earrings.color">
                   <div class="form-group">
-                      <label :for="layerName">sadfsafsa</label>
+                      <label :for="layerName">@{{ layerName }}</label>
                       <colorpicker :layername="layerName"></colorpicker>
                   </div>
                 </template>
@@ -45,7 +41,7 @@
 	            </div>
 	        </div>
 
-            @{{ earrings }}
+          <input type="hidden" value="@{{ earrings }}"></input>
 
         </div>
 	</div>	

@@ -38,11 +38,13 @@
 </head>
 <body>
     <div id="app">
+
+    
         @include('components.top_nav')
 
         @yield('content')
 
-        
+
     </div>
 
     <!-- Dummy Data for earrings -->

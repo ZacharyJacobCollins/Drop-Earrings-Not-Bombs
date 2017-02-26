@@ -9,14 +9,13 @@ var app = new Vue({
         availableBeads: availableBeads,
         size: '',
         frame: '',
-        style: '',
         color: {
           //Contains an array of the colors available for the given layer
-          layer1: '#150509',
-          layer2: 'orange',
-          layer3: 'grey',
-          layer4: 'blue',
-          layer5: '#b0134a',
+          layer1: 'none',
+          layer2: 'none',
+          layer3: 'none',
+          layer4: 'none',
+          layer5: 'none',
         },
         beads: '',
       },
@@ -55,6 +54,7 @@ var app = new Vue({
       registerSelectorListeners: function() {
         bus.$on('frames', function (frame) {
           app.earrings.frame = frame;
+          console.log(frame);
         });
         bus.$on('styles', function (style) {
           app.earrings.style = style;
