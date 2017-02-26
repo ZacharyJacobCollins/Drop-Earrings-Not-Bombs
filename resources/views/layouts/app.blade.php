@@ -26,6 +26,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/components/top_nav.css') }}" rel="stylesheet">
     <link href="{{ asset('css/earring_creator.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/crew.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -50,7 +51,6 @@
 
     <!-- Dummy Data for earrings -->
     <script src="{{ asset('js/data/colors.js') }}"></script>
-
     <script src="{{ asset('js/data/styles.js') }}"></script>
     <script src="{{ asset('js/data/frames.js') }}"></script>
     <script src="{{ asset('js/data/sizes.js') }}"></script>
@@ -74,6 +74,9 @@
     <!-- Vue files -->
     <script src="{{ asset('js/vue_components.js') }}"></script>
     <script src="{{ asset('js/vue.js') }}"></script>
+
+    <!-- View js files -->
+    <script src="{{ asset('js/crew.js') }}"></script>
 
 </body>
 </html>

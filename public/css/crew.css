@@ -1,0 +1,9 @@
+body {
+	background-color: #eee;
+}
+.main-content {
+	background-color: #ddd;
+}
+.row.crewInfoRow {
+	padding-bottom: 2.5em;
+}
