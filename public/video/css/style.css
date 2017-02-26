@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto:300');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#left-box {
+	display: inline;
+	margin-left: 100px;
+	background-color: grey;
+	float: left;
+	width: 200px;
+	height: 500px;	
+}
+
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+
+* { box-sizing: border-box; }
+
+.video-background {
+  background: #000;
+  opacity: .7;
+  /*position: fixed;*/
+  /*top: 0; right: 0; bottom: 0; left: 0;*/
+}
+
+/*Background foreground divs to assist with responsiveness*/
+.video-foreground, .video-background {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Main Boxes */
+.vid-info {
+
+	font-family: 'Quicksand', sans-serif;
+	 position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+
+.vid-info h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem; margin-top: 0; line-height: 1.2; }
+
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+
+/* Begin media queries */
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}

@@ -19,7 +19,7 @@
       <a href="#">
         <div class="nav-item hidden-nav">Spacer</div>
       </a>
-      <a href="/contribute">
+      <a href="https://samahmajadla.gitbooks.io/drop-earrings-not-bombs/content/">
         <div class="nav-item">Contribute</div>
       </a>
       <a href="/shop">

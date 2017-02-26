@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <!-- Custom CSS -->
+    <link href="{{ asset('css/video_background.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/top_nav.css') }}" rel="stylesheet">
     <link href="{{ asset('css/earring_creator.css') }}" rel="stylesheet">
@@ -32,6 +33,13 @@
     <link href="{{ asset('css/shop.css') }}" rel="stylesheet">
     <link href="{{ asset('css/products.css') }}" rel="stylesheet">
     <link href="{{ asset('css/checkout.css') }}" rel="stylesheet">
+
+    <!-- Video Background -->
+    <link href="{{ asset('video/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('video/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('video/css/videojs.css') }}" rel="stylesheet">
+    <script src="{{ asset('video/js/ie8videojs.min.js') }}"></script>
+    <!-- Video Background -->
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -87,6 +95,12 @@
     <!-- Vue files -->
     <script src="{{ asset('js/vue_components.js') }}"></script>
     <script src="{{ asset('js/vue.js') }}"></script>
+
+
+
+
+    <!-- Video Background -->
+    <script src="{{ asset('video/js/videojs.js') }}"></script>
 
 
 </body>

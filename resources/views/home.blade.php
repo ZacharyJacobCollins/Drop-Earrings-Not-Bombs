@@ -1,14 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-	<div class="row">
-		<div class="col-sm-4">
-    		<h1> Drop Earrings Not Bombs. </h1>
-    	</div>
-    	<div class="col-sm-8">
-    		<img width="800px" src="{{ asset('img/earringCollage.png') }}">
-    	</div>
-    </div>
-</div>
-@endsection
+	<div id='left-box'>
+		<h1> wow </h1>
+	</div>
+	<div class="container">	
+	    <div class="video-background">
+	      <div class="video-foreground">
+	        <video id="video-bg" class="video-js vjs-16-9 vjs-default-skin" preload="auto" width="1280" height="720" data-setup="{}" muted autoplay loop>
+	            <source src="{{ asset('video/media/videos/video-bg.mp4') }}" type="video/webm">
+	            <p class="vjs-no-js">
+	              To view this video please enable JavaScript, and consider upgrading to a web browser that supports html5 video
+	            </p>
+	        </video>
+	      </div>
+	    </div>
+	</div>
+
+ @endsection
