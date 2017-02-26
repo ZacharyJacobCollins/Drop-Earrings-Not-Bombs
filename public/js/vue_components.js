@@ -47,7 +47,7 @@ Vue.component('colorpicker', {
   template:
     `
       <select v-model="currentcolor" class="form-control">
-        <option v-for="color in availableColors" :value="color.value"> {{color.value}} </option>
+        <option v-for="color in availableColors" :value="color.value" :style="'background-color: '+color.value" > </option>
       </select>
     `,
 });
