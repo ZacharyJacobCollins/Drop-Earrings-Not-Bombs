@@ -23,3 +23,6 @@ body {
 .row.hidden-md-up .crew-info {
 	padding-top; 20px;
 }
+.crew-images {
+	width: 350px !important;
+}

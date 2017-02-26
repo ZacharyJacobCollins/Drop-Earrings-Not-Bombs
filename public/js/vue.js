@@ -86,6 +86,18 @@ var app = new Vue({
       console.log(this.earrings);
       this.registerColorpickerListeners();
       this.registerSelectorListeners();
-
+    },
+    mounted: function() {
+      $.ajax({
+        type: "get",
+        url: "http://45.79.70.166/cart/products",
+        success: function(msg) {
+          console.log('success');
+          app.items = msg;
+        },
+        fail: function(msg) {
+          console.log('fail');
+        }
+      });
     },
 });

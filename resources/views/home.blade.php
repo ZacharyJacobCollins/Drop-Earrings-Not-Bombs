@@ -3,7 +3,13 @@
 @section('content')
 	<div id='left-box'>
 		<h2> Drop Earrings Not Bombs</h2>
-		<p> </p>
+		
+		<p>An approximate 11 million people have fled Syria due to the civil war turning their homes into warzones. Without proper grasp of the spoken language in a host country, jobs, education, and community are out of reach for the refugees.
+		</p>
+
+		<p>
+			Drop Earrings Not Bombs (DENB) is a project that raises funds for and empowers Syrian refugees living in Istanbul, Turkey, by providing language, recreational and skill based workshops for refugees of all ages.
+		</p>
 	</div>
 	<div class="container">	
 	    <div class="video-background">

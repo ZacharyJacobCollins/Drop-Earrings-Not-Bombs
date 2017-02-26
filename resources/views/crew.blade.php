@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row crewInfoRow justify-content-around hidden-md-down">
 					<div class="col-4">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+						<img class="crew-images" src="{{ asset('img/products/Crew_0.jpeg') }}"></img>
 					</div>
 					<div class="col-4">
 						<span>Hiba</span>
@@ -13,7 +13,7 @@
 					</div>
 				</div>
 				<div class="row hidden-md-up">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+					<img class="crew-images" src="{{ asset('img/products/Crew_1.jpeg') }}"></img>
 				</div>
 				<div class="row hidden-md-up crew-info">
 					<span>Hiba</span>
@@ -21,7 +21,7 @@
 				</div>
 				<div class="row crewInfoRow justify-content-around hidden-md-down">
 					<div class="col-4">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+						<img class="crew-images" src="{{ asset('img/products/Crew_2.jpeg') }}"></img>
 					</div>
 					<div class="col-4">
 						<spanc>Sawsan</spanc>
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				<div class="row hidden-md-up">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+					<img class="crew-images" src="{{ asset('img/products/Product_27.jpg') }}"></img>
 				</div>
 				<div class="row hidden-md-up crew-info">
 					<spanc>Sawsan</spanc>
@@ -37,7 +37,7 @@
 				</div>
 				<div class="row crewInfoRow justify-content-around hidden-md-down">
 					<div class="col-4">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+						<img class="crew-images" src="{{ asset('img/products/Product_1.jpg') }}"></img>
 					</div>
 					<div class="col-4">
 						<span>Farida</span>
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 				<div class="row hidden-md-up">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+					<img class="crew-images" src="{{ asset('img/products/Product_2.jpg') }}"></img>
 				</div>
 				<div class="row hidden-md-up crew-info">
 					<span>Farida</span>
@@ -53,7 +53,7 @@
 				</div>
 				<div class="row crewInfoRow justify-content-around hidden-md-down">
 					<div class="col-4">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+						<img class="crew-images" src="{{ asset('img/products/Product_3.jpg') }}"></img>
 					</div>
 					<div class="col-4">
 						<span>Nina</span>
@@ -61,7 +61,7 @@
 					</div>
 				</div>
 				<div class="row hidden-md-up">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+					<img class="crew-images" src="{{ asset('img/products/Product_4.jpg') }}"></img>
 				</div>
 				<div class="row hidden-md-up crew-info">
 					<span>Nina</span>
@@ -69,7 +69,7 @@
 				</div>
 				<div class="row crewInfoRow justify-content-around hidden-md-down">
 					<div class="col-4">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+						<img class="crew-images" src="{{ asset('img/products/Product_5.jpg') }}"></img>
 					</div>
 					<div class="col-4">
 						<span>Zeyna, Lin, Qotaiba and Mahmoud</span>
@@ -77,7 +77,7 @@
 					</div>
 				</div>
 				<div class="row hidden-md-up">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=350%C3%97350&w=350&h=350"></img>
+					<img class="crew-images" src="{{ asset('img/products/Product_6.jpg') }}"></img>
 				</div>
 				<div class="rwo hidden-md-up crew-info">
 					<span>Zeyna, Lin, Qotaiba and Mahmoud</span>
