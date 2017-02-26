@@ -7,9 +7,10 @@
 				<div href="#">                     
 					<h1>{{ $product->title }}</h1>                     
 					<img src="{{ asset('img/products/'.$product->image_url) }} "/>
-					<div class="col align-self-end">
-						<button type="button" class="add-to-cart btn btn-success" data-productId="{{ $product->id }}" style="margin-top:10px">Add To Cart</button>
-					</div>
+
+					<button type="button" class="add-to-cart btn btn-success" data-productId="{{ $product->id }}" style="margin-top:10px">Add To Cart</button>
+					<input  name="quantity" type="text" class="form-control col-2" value="1">
+
 				</div>
 			</div>
 		@endforeach

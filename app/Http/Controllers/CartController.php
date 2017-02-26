@@ -11,8 +11,10 @@ class CartController extends Controller
 	//Add a productId to cart given id
 	public function addProduct(Request $request) {
 		//check if user is logged in, if not redirect to login
-		if(Auth::check) {
+		if(isset(Auth::user()->id)) {
+
 			$productId = $request->input('productId');
+			$quantity  = $request->input('quantity');
 
 			$user = Auth::user();
 
@@ -24,7 +26,10 @@ class CartController extends Controller
 			}
 
 			$cart = $user->cart;
-			$cart->addProduct($productId);	
+
+			for ($i=0; $i<$quantity; $i++) {
+				$cart->addProduct($productId);	
+			}
 
 			return $cart->products;
 		} else {

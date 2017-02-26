@@ -17,10 +17,17 @@ $(function() {
 		  "hideMethod": "fadeOut" };
 
 		$(".add-to-cart").on('click', function(e) {
+			//TODO
+			console.log($(this).siblings('input').val());
+
 			$.ajax({
 				type: 'post',
-				url: 'http://45.79.70.166/cart/products/add',
-				data: {"productId": $(this).data('productid')},
+				// url: 'http://45.79.70.166/cart/products/add',
+				url: 'http://localhost:8000/cart/products/add',
+				data: {
+					"productId": $(this).data('productid'),
+					"quantity":  $(this).siblings('input').val()
+				},
 				success: function(e) {
 					toastr["success"]("Item added to Cart");
 				},
