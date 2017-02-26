@@ -8,3 +8,5 @@ Notes
 
 Plugins
 	* Laravel cashier
+
+Send photo in, get featured on front page
