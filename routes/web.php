@@ -34,9 +34,10 @@ Route::group(['prefix' => 'cart'], function () {
 	
 	Route::get('/products', 'CartController@products');
 	Route::post('/products/add', 'CartController@addProduct');	
+
 	// Route::post('/products/delete', 'CartController@deleteProduct');
 });
 
-Route::get('/cart', 'CartController@add');
+Route::get('/auth', 'CartController@auth');
 
 Auth::routes();

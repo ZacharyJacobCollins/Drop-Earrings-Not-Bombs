@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link href="{{ asset('css/video_background.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/top_nav.css') }}" rel="stylesheet">
     <link href="{{ asset('css/earring_creator.css') }}" rel="stylesheet">
@@ -33,12 +32,12 @@
     <link href="{{ asset('css/shop.css') }}" rel="stylesheet">
     <link href="{{ asset('css/products.css') }}" rel="stylesheet">
     <link href="{{ asset('css/checkout.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/toastr.css') }}" rel="stylesheet">
 
     <!-- Video Background -->
     <link href="{{ asset('video/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('video/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('video/css/videojs.css') }}" rel="stylesheet">
-    <script src="{{ asset('video/js/ie8videojs.min.js') }}"></script>
     <!-- Video Background -->
 
     <!-- Fonts -->
@@ -62,6 +61,8 @@
 
     </div>
 
+   
+
     <!-- Dummy Data for earrings -->
     <script src="{{ asset('js/data/colors.js') }}"></script>
     <script src="{{ asset('js/data/styles.js') }}"></script>
@@ -72,8 +73,11 @@
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+     <!-- toastr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
     <!-- Scripts -->
-    <!-- <script src="{{ asset('js/app.js') }}"></script> -->
+    <script src="{{ asset('js/app.js') }}"></script>
 
     <!-- Tether -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
@@ -83,6 +87,7 @@
 
     <!-- Custom js files -->
     <script src="{{ asset('js/checkout.js') }}"></script>
+    <script src="{{ asset('js/products.js') }}"></script>
     <script>
         $(function() {
             $('.row.justify-content-around:nth-child(even) .col-4:first-child').addClass("flex-last");
@@ -95,9 +100,6 @@
     <!-- Vue files -->
     <script src="{{ asset('js/vue_components.js') }}"></script>
     <script src="{{ asset('js/vue.js') }}"></script>
-
-
-
 
     <!-- Video Background -->
     <script src="{{ asset('video/js/videojs.js') }}"></script>

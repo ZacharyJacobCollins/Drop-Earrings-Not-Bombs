@@ -2,7 +2,8 @@
 
 @section('content')
 	<div id='left-box'>
-		<h1> wow </h1>
+		<h2> Drop Earrings Not Bombs</h2>
+		<p> </p>
 	</div>
 	<div class="container">	
 	    <div class="video-background">
@@ -16,5 +17,4 @@
 	      </div>
 	    </div>
 	</div>
-
  @endsection

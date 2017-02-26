@@ -50,6 +50,22 @@ var app = new Vue({
       }
     },
     methods: {
+      addToCart: function() {
+          console.log('hit');
+          // var productId = event.target.data('productId');
+          // $.ajax({
+          //   type: 'post',
+          //   url: 'http://45.79.70.166/cart/products/add',
+          //   data: {"productId": productId},
+          //   success: function(data) {
+          //     console.log(data);
+          //     // toast["success"]("Item added to Cart");
+          //   }
+          // });
+      },
+      test: function() {
+        console.log('wow');
+      }, 
       //Register all the layer event bus listeners
       registerColorpickerListeners: function() {
         bus.$on('layer1', function (layer) {

@@ -10,8 +10,6 @@ class CartController extends Controller
 {
 	//Add a productId to cart given id
 	public function addProduct(Request $request) {
-	
-
 		$productId = $request->input('productId');
 		$user = Auth::user();
 
@@ -37,5 +35,9 @@ class CartController extends Controller
 	//TODO
 	public function deleteProduct(Request $request) {
 		$productId = $request->input('productId');
+	}
+
+	public function auth() {
+		return Auth::user();
 	}
 }

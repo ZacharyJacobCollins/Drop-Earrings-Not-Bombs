@@ -37,9 +37,7 @@
     <div class="subtotal cf">
       <ul>
       <li class="totalRow"><span class="label">Subtotal</span><span class="value">$@{{ subTotal }}</span></li>
-
         <li class="totalRow"><span class="label">Shipping</span><span class="value">$@{{ shipping }}</span></li>
-
         <li class="totalRow"><span class="label">Tax</span><span class="value">$@{{ tax }}</span></li>
         <li class="totalRow final"><span class="label">Total</span><span class="value">@{{ total }}</span></li>
         <li class="totalRow"><a href="#" class="btn continue">Checkout</a></li>

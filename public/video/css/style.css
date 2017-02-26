@@ -8,11 +8,13 @@ html, body {
 
 #left-box {
 	display: inline;
-	margin-left: 100px;
-	background-color: grey;
+	color:black;
+	padding: 20px;
+	margin-left: 70px;
+	margin-top: 70px;
 	float: left;
-	width: 200px;
-	height: 500px;	
+	width: 400px;
+	height: 700px;	
 }
 
 #vidtop-content {
@@ -24,7 +26,8 @@ html, body {
 
 .video-background {
   background: #000;
-  opacity: .7;
+  margin-left: 50px;
+  /*opacity: .7;*/
   /*position: fixed;*/
   /*top: 0; right: 0; bottom: 0; left: 0;*/
 }
