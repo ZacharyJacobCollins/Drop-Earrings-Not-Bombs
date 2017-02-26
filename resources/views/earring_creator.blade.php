@@ -30,7 +30,7 @@
                 <!-- Colors  -->
                 <template v-for="(layer, layerName) in earrings.color">
                   <div class="form-group">
-                      <label :for="layerName"> @{{ layerName }}</label>
+                      <label :for="layerName"> Choose a color for @{{ layerName }}</label>
                       <colorpicker :layername="layerName"></colorpicker>
                   </div>
                 </template>
