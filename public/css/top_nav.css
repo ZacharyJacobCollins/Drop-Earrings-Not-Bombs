@@ -49,5 +49,12 @@ a, a:hover {
 .hidden-nav {
 	visibility: hidden;
 }
+.checkout {
+	color: black;
+	background-color: #60ff86;
+}
+.checkout:hover {
+	background-color: #60ff44;
+}
 
 /*background:  url("https://upload.wikimedia.org/wikipedia/commons/a/ae/Syria_DisplacementRefugees_2012June13_HIU_U589.jpg") no-repeat fixed center; */

@@ -16,14 +16,14 @@
     <img src="{{ asset('img/logo/logoColor.png') }}">
 
     <div class="col-4 inwards-right">
-      <a href="#">
-        <div class="nav-item hidden-nav">Spacer</div>
-      </a>
       <a href="https://samahmajadla.gitbooks.io/drop-earrings-not-bombs/content/">
         <div class="nav-item">Contribute</div>
       </a>
       <a href="/shop">
         <div class="nav-item button">Shop</div>
+      </a>
+      <a href="/checkout">
+        <div class="nav-item checkout">Checkout</div>
       </a>
     </div>
   </div>

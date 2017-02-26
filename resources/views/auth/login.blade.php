@@ -10,7 +10,10 @@
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
+
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                            <h3 class="col-md-12" style="text-align: center; margin-bottom: 15px;"> Don't have an account? Register <a href="/register">here</a></h3>
+
                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
                             <div class="col-md-6">
@@ -54,9 +57,10 @@
                                     Login
                                 </button>
 
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                <button type="button" class="btn btn-danger" href="{{ route('password.request') }}">
                                     Forgot Your Password?
-                                </a>
+                                </button>
+
                             </div>
                         </div>
                     </form>
