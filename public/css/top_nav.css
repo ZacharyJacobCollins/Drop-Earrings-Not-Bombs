@@ -1,38 +1,9 @@
-/*
-.nav-item {
-	display: inline-block;
-	float: left;
-	padding: 1em 2em;
-	font-size: 15px;
-	font-weight: 600;
-	text-transform: uppercase;
+.navbar {
+	padding: 0;
 }
-.nav-item:hover {
-	background-color: #ddd;
-}
-.navbar-row {
-	padding: 0 3.5em;
-	border-bottom: 1px solid #ddd;
-	background-color: #eee;
-}
-
-.button:hover {
-	background-color: #f25252;
-}
-.inwards-left {
-	left: 7%;
-}
-.inwards-right {
-	right: 2%;
-}
-.hidden {
-	visibility: hidden;
-}
-	*/
-
-
 .nav-item {
 	text-align: center;
+	margin-top: 20px;
 	font-size: 30px;
 	color: black;
 }

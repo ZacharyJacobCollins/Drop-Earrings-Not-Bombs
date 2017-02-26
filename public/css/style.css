@@ -4,4 +4,11 @@
 
 body, html {
 	overflow-x: hidden;
+	font-family: dolce;
 }
+
+@font-face {
+	font-family: 'dolce';
+	src: url('../fonts/DolceVita.ttf');
+}
+
