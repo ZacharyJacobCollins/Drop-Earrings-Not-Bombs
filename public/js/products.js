@@ -20,9 +20,9 @@ $(function() {
 			$.ajax({
 				type: 'post',
 				url: 'http://45.79.70.166/cart/products/add',
-				data: {"productID": $(this).data('productID')},
+				data: {"productId": $(this).data('productID')},
 				success: function(e) {
-					toast["success"]("Item added to Cart");
+					toastr["success"]("Item added to Cart");
 				},
 			});
 		});

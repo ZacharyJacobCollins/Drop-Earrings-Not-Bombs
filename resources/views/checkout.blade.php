@@ -13,7 +13,7 @@
 
         <div class="infoWrap"> 
           <div class="cartSection">
-            <img :src="product.imageURL" alt="" class="itemImg" />
+            <img :src="product.image_url" alt="" class="itemImg" />
             <p class="itemNumber">@{{ product.title }}</p>
             <h3>@{{ product.description }}</h3>
 

@@ -20,7 +20,7 @@ class ProductsTableSeeder extends Seeder
 			Product::create([
 				'title' => "Product".$i,
 				'price' => 15.00,
-				'description' => "Product".$i." Earring Lorem Ipsup Earring Lorem Ipsup Earring Lorem Ipsup Earring Lorem Ipsup Earring Lorem Ipsup",
+				'description' => "Product".$i."Sunburst, green, red",
 				'image_url' => "Product_".$i.".jpg",
 			]);
 		}
