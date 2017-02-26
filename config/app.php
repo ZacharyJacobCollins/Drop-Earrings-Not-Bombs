@@ -177,6 +177,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Checkout Service Providers...
+         */
+        Laravel\Cashier\CashierServiceProvider::class,   
+
     ],
 
     /*

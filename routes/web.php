@@ -26,5 +26,6 @@ Route::get('/involvement', 'InvolvementController@involvement');
 Route::get('/crew', 'CrewController@crew');
 Route::get('/home', 'HomeController@index');
 
+Route::get('/checkout', 'CheckoutController@sendInvoice');
 
 Auth::routes();

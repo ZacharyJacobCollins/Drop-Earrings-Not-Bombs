@@ -5,3 +5,6 @@ Contribution guide
 
 Notes
 	* Use earring creator stuff.  Templating needs to happen in a specific way for svg to be manipulated.  
+
+Plugins
+	* Laravel cashier

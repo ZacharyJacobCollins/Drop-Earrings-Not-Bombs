@@ -1,4 +1,4 @@
-
+/*
 .nav-item {
 	display: inline-block;
 	float: left;
@@ -15,10 +15,7 @@
 	border-bottom: 1px solid #ddd;
 	background-color: #eee;
 }
-.button {
-	color: #fff;
-	background-color: #ff5656;
-}
+
 .button:hover {
 	background-color: #f25252;
 }
@@ -31,4 +28,15 @@
 .hidden {
 	visibility: hidden;
 }
-	
+	*/
+
+
+.nav-item {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+}
+
+.shop {
+	background-color: #ff5656;
+}
