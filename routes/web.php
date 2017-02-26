@@ -14,18 +14,19 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/home', 'HomeController@index');
+
 
 //Shop routes
 Route::get('/shop', 'ShopController@shop');
 Route::get('/shop/creator', 'ShopController@earringCreator');
 Route::get('/shop/products', 'ShopController@products');
 
-Route::get('/products/index', 'ProductController@products');
-
+//Involve
 Route::get('/involvement', 'InvolvementController@involvement');
 Route::get('/crew', 'CrewController@crew');
-Route::get('/home', 'HomeController@index');
 
+//Checkout
 Route::get('/checkout', 'CheckoutController@sendInvoice');
 
 Auth::routes();

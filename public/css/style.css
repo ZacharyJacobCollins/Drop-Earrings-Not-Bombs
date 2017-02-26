@@ -4,11 +4,23 @@
 
 body, html {
 	overflow-x: hidden;
-	font-family: dolce;
+	font-family: geosans;
+	font-size: 20px;
+	color: black;
 }
 
 @font-face {
 	font-family: 'dolce';
 	src: url('../fonts/DolceVita.ttf');
+}
+
+@font-face {
+	font-family: 'ultima';
+	src: url('../fonts/UltimaPDac-UltraLight.ttf');
+}
+
+@font-face {
+	font-family: 'geosans';
+	src: url('../fonts/GeosansLight.ttf');
 }
 

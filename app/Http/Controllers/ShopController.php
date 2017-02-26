@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Product;
 
-
 class ShopController extends Controller
 {
 	//Serves main shop view
@@ -20,7 +19,8 @@ class ShopController extends Controller
 
 	//Premade earrings/products
 	public function products() {
-		return view('products');
+		$products = Product::All();
+		return view('products', ['products'=>$products]);
 	}
-	
+
 }

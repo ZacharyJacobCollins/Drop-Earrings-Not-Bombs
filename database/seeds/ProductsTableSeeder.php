@@ -14,14 +14,14 @@ class ProductsTableSeeder extends Seeder
     {
 
 
-		//create 50 products
-    	for($i=0; $i<50; $i++) 
+		//create 29 products
+    	for($i=1; $i<29; $i++) 
     	{
 			Product::create([
 				'title' => "Product".$i,
-				'price' => (2.12+($i*1.08)),
-				'description' => "Product".$i." Description Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum ",
-				'image_url' => 'https://source.unsplash.com/random',
+				'price' => 15.00,
+				'description' => "Product".$i." Earring Lorem Ipsup Earring Lorem Ipsup Earring Lorem Ipsup Earring Lorem Ipsup Earring Lorem Ipsup",
+				'image_url' => "Product_".$i.".jpg",
 			]);
 		}
     }

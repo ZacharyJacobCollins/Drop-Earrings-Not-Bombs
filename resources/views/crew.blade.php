@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="main-content">
+    <div class="main-content container">
     	<h1 class="row justify-content-around">The Crew</h1>
     	<div class="container">
 	    	<div class="row crewInfoRow justify-content-around">

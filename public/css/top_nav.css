@@ -1,5 +1,9 @@
 .navbar {
 	padding: 0;
+	font-family: dolce;
+}
+a:hover {
+	color: #ff5656 !important;
 }
 .nav-item {
 	text-align: center;
@@ -7,14 +11,13 @@
 	font-size: 30px;
 	color: black;
 }
-
 .shop {
 	background-color: #ff5656;
-	padding: 35px;
+	padding: 40px;
 	text-decoration: none;
 }
-
 .shop > a:hover {
 	text-decoration:none;
-	color: black;
+	color: white !important;
 }
+
