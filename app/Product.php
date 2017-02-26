@@ -11,6 +11,8 @@ class Product extends Model
         'title', 'price', 'image_url', 'description'
     ];
 
-    
-	
+	public function carts() {
+        return $this->belongsToMany('App\Product');
+    }
+
 }

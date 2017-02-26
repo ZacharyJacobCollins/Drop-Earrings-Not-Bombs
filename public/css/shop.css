@@ -9,8 +9,6 @@ body, html {
 .main-content {
 	position: relative;
 	min-height: 100%;
-	height: auto;
-	height: 100%;
 }
 .row.button-block {
 	height: 100%;
@@ -19,11 +17,19 @@ body, html {
 	text-align: center;
 	height: auto;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	margin-top: 2.5em;
 }
 .boxed-content:hover {
-	 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .boxed-content a {
 	text-decoration: none;
+}
+.footer {
+	padding-top: 20%;
+	height: 1em;
+	display: block;
+	clear: both;
+	opacity: .4;
 }

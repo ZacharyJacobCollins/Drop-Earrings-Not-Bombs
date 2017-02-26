@@ -31,6 +31,7 @@
     <link href="{{ asset('css/crew.css') }}" rel="stylesheet">
     <link href="{{ asset('css/shop.css') }}" rel="stylesheet">
     <link href="{{ asset('css/products.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/checkout.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -72,6 +73,14 @@
     <!-- Bootstrap V4 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+    <!-- Custom js files -->
+    <script src="{{ asset('js/checkout.js') }}"></script>
+    <script>
+        $(function() {
+            $('.row.justify-content-around:nth-child(even) .col-4:first-child').addClass("flex-last");
+        });
+    </script>
+
     <!-- Vue.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
 
@@ -79,12 +88,6 @@
     <script src="{{ asset('js/vue_components.js') }}"></script>
     <script src="{{ asset('js/vue.js') }}"></script>
 
-    <!-- Custom js files -->
-    <script>
-        $(function() {
-            $('.row.justify-content-around:nth-child(even) .col-4:first-child').addClass("flex-last");
-        });
-    </script>
 
 </body>
 </html>

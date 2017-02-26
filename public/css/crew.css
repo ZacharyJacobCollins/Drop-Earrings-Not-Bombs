@@ -1,6 +1,25 @@
 body {
 	background-color: #eee;
 }
+@media (max-width: 991px) {
+	.crew-info {
+		margin: 20px 0px 40px;
+		width: 70%;
+		text-align: left;
+		margin: 0 auto;
+	}
+	.row img {
+		width: 80%;
+		margin: 0 auto;
+		padding: 20px 0 30px;
+	}
+}
 .row.crewInfoRow {
 	padding-bottom: 2.5em;
+}
+.row.hidden-md-up {
+	line-height: 1.6em;
+}
+.row.hidden-md-up .crew-info {
+	padding-top; 20px;
 }

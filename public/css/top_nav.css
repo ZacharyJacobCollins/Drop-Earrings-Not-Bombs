@@ -1,23 +1,48 @@
-.navbar {
-	padding: 0;
-	font-family: dolce;
-}
-a:hover {
-	color: #ff5656 !important;
-}
-.nav-item {
-	text-align: center;
-	margin-top: 20px;
-	font-size: 30px;
+a, a:hover {
+	text-decoration: none;
 	color: black;
 }
-.shop {
+.nav-item {
+	font-size: 22px;
+	font-family: dolce !important;
+	padding: 35px;
+	text-transform: uppercase;
+}
+.navbar-row > img{
+	height: 92px;
+}
+.col-4 .nav-item {
+	display: inline-block;
+	float: left;
+}
+.collapse .nav-item {
+	display: block;
+	color: #fff;
+	width: 100%;
+}
+.nav-item:hover {
+	background-color: #ddd;
+}
+.navbar-row {
+	padding: 0 3.5em;
+	border-bottom: 1px solid #ddd;
+	background-color: #eee;
+}
+.button {
+	color: #fff;
 	background-color: #ff5656;
-	padding: 40px;
-	text-decoration: none;
 }
-.shop > a:hover {
-	text-decoration:none;
-	color: white !important;
+.navbar-toggler {
+	flo
 }
-
+.button:hover {
+	background-color: #f25252;
+}
+.inwards-left {
+	left: 7%;
+}
+.inwards-right {
+	right: 2%;
+}
+.hidden-nav {
+	visibility: hidden;

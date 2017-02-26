@@ -27,6 +27,16 @@ Route::get('/involvement', 'InvolvementController@involvement');
 Route::get('/crew', 'CrewController@crew');
 
 //Checkout
-Route::get('/checkout', 'CheckoutController@sendInvoice');
+Route::get('/checkout', 'CheckoutController@checkout');
+
+//Cart
+Route::group(['prefix' => 'cart'], function () {
+	
+	Route::get('/products', 'CartController@products');
+	Route::post('/products/add', 'CartController@addProduct');	
+	// Route::post('/products/delete', 'CartController@deleteProduct');
+});
+
+Route::get('/cart', 'CartController@add');
 
 Auth::routes();

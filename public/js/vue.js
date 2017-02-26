@@ -1,6 +1,8 @@
 var app = new Vue({
     el: "#app",
     data: {
+      items: arr,
+      shipping: 5.00,
       earrings: {
         //TODO make ajax with laravel
         availableStyles: availableStyles,
@@ -29,6 +31,22 @@ var app = new Vue({
       },
       json: function() {
         return JSON.stringify(this.data);
+      },
+      subTotal: function() {
+        var total = 0;
+        for(var i=0; i<this.items.length; i++) {
+          total += this.items[i].price * this.items[i].quantity;
+        }
+        return Number(total).toFixed(2);
+      },
+      total: function() {
+        var total = Number(this.subTotal);
+        total += Number(this.shipping);
+        total += Number(this.tax);
+        return total.toFixed(2);
+      },
+      tax: function() {
+        return Number(.06 * this.subTotal).toFixed(2);
       }
     },
     methods: {

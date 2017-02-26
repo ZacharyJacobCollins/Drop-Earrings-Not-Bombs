@@ -7,7 +7,7 @@
     		<h1> Drop Earrings Not Bombs. </h1>
     	</div>
     	<div class="col-sm-8">
-    		<img width="1000px" src="{{ asset('img/home.jpg') }}">
+    		<img width="800px" src="{{ asset('img/earringCollage.png') }}">
     	</div>
     </div>
 </div>

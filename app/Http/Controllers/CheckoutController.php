@@ -7,6 +7,11 @@ use Mail;
 
 class CheckoutController extends Controller
 {
+
+	public function checkout() {
+		return view('checkout');	
+	}
+	
    	//Send invoice to customer after payment 
 	public function sendInvoice() {
 		$data = ['name' => "Learning Laravel"];
@@ -21,4 +26,6 @@ class CheckoutController extends Controller
 		return 'success';
 	
 	}
+
+
 }
