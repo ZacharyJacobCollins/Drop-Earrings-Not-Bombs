@@ -28,7 +28,7 @@ class CartController extends Controller
 
 			return $cart->products;
 		} else {
-			return return redirect('/login');
+			return redirect('/login');
 		}
 	}
 

@@ -90,7 +90,8 @@ var app = new Vue({
     mounted: function() {
       $.ajax({
         type: "get",
-        url: "http://45.79.70.166/cart/products",
+        // url: "http://45.79.70.166/cart/products",
+        url: "http://localhost:8000/cart/products",
         success: function(msg) {
           console.log('success');
           app.items = msg;
