@@ -1,5 +1,3 @@
-
-
 <div class="hidden-md-down row justify-content-around navbar-row">
     <div class="col-4 inwards-left">
       <a href="/">
@@ -9,7 +7,7 @@
         <div class="nav-item">Crew</div>
       </a>
       <a href="/involvment">
-        <div class="nav-item">Involvement</div>
+        <div class="nav-item hidden">Involvement</div>
       </a>
     </div>
 
