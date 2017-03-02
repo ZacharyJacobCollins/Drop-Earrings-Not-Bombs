@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Product;
+use App\PremadeEarring;
 
 class ShopController extends Controller
 {
@@ -19,8 +19,8 @@ class ShopController extends Controller
 
 	//Premade earrings/products
 	public function products() {
-		$products = Product::All();
-		return view('products', ['products'=>$products]);
+		$premadeEarrings = PremadeEarring::All();
+		return view('products', ['premadeEarrings'=>$premadeEarrings]);
 	}
 
 }

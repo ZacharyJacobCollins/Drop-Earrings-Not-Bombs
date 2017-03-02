@@ -11,6 +11,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(ProductsTableSeeder::class);
+        $this->call(PremadeEarringsTableSeeder::class);
+
+        $this->call(CustomEarringColorOptionsTableSeeder::class);
+        $this->call(CustomEarringFrameOptionsTableSeeder::class);
+        $this->call(CustomEarringSizeOptionsTableSeeder::class);
+        $this->call(CustomEarringBeadOptionsTableSeeder::class);
+        $this->call(CustomEarringStyleOptionsTableSeeder::class);
     }
 }

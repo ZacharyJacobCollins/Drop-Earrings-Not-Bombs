@@ -43,6 +43,7 @@
 </template>
 <script>
 export default {
+  name: 'creator',
   data () {
     return {
       items: [],
@@ -59,27 +60,27 @@ export default {
         selected.push(this.earrings.size);
         return this.earrings.size;
     },
-    json: function() {
+    json () {
       return JSON.stringify(this.data);
     },
-    subTotal: function() {
+    subTotal () {
       var total = 0;
       for(var i=0; i<this.items.length; i++) {
         total += this.items[i].price * this.items[i].quantity;
       }
       return Number(total).toFixed(2);
     },
-    total: function() {
+    total () {
       var total = Number(this.subTotal);
       total += Number(this.shipping);
       total += Number(this.tax);
       return total.toFixed(2);
     },
-    tax: function() {
+    tax () {
       return Number(.06 * this.subTotal).toFixed(2);
     }
   },
-  mounted: function() {
+  mounted () {
     $.ajax({
       type: "get",
       // url: "http://45.79.70.166/cart/products",

@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Product;
+use App\PremadeEarring;
 
-class ProductsTableSeeder extends Seeder
+class PremadeEarringsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,12 +12,10 @@ class ProductsTableSeeder extends Seeder
      */
     public function run()
     {
-
-
 		//create 29 products
     	for($i=1; $i<29; $i++) 
     	{
-			Product::create([
+			PremadeEarring::create([
 				'title' => "Product".$i,
 				'price' => 15.00,
 				'description' => "Product".$i."Sunburst, green, red",

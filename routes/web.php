@@ -31,11 +31,18 @@ Route::get('/checkout', 'CheckoutController@checkout');
 
 //Cart
 Route::group(['prefix' => 'cart'], function () {
-	
 	Route::get('/products', 'CartController@products');
 	Route::post('/products/add', 'CartController@addProduct');	
-
 	// Route::post('/products/delete', 'CartController@deleteProduct');
+});
+
+//Custom earrings
+Route::group(['prefix' => 'custom/earrings'], function () {
+	Route::get('/colors', 'CustomEarringController@colors');
+	Route::get('/styles', 'CustomEarringController@styles');
+	Route::get('/beads', 'CustomEarringController@beads');
+	Route::get('/frames', 'CustomEarringController@frames');
+	Route::get('/sizes', 'CustomEarringController@sizes');
 });
 
 Route::get('/auth', 'CartController@auth');

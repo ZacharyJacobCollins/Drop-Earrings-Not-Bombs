@@ -9,7 +9,8 @@
 </template>
 
 <script>
-export default {
-  props: ['available', 'title'],
-}
+	export default {
+		name: 'selector',
+		props: ['available', 'title'],
+	}
 </script>

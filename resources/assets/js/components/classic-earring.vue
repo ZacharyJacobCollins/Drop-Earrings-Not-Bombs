@@ -1,5 +1,6 @@
 <script>
   export default {
+    name: 'classic-earring',
     props: ['color'],
     computed: {
       layer1 () { return this.$store.state.earrings.color.layer1},
