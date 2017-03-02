@@ -94,13 +94,6 @@
         });
     </script>
 
-    <!-- Vue.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
-
-    <!-- Vue files -->
-    <script src="{{ asset('js/vue_components.js') }}"></script>
-    <script src="{{ asset('js/vue.js') }}"></script>
-
     <!-- Video Background -->
     <script src="{{ asset('video/js/videojs.js') }}"></script>
 
